@@ -26,4 +26,4 @@ class GuessNumberGame:
     def is_game_over(self):
         return self.attempts == 0 or self.current_capital <= 0
 
----
+
