@@ -1,4 +1,4 @@
-from logic import GuessNumberGame
+from my_env.logic import GuessNumberGame
 
 
 def main():
