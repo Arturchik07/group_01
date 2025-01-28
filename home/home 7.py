@@ -154,8 +154,8 @@ def test_all_functions():
     create_database()
     print("База данных создана успешно")
 
-    add_products()
-    print("\nТовары добавлены успешно")
+    # add_products()
+    # print("\nТовары добавлены успешно")
 
 
     show_all_products()
