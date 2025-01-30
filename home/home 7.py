@@ -45,7 +45,7 @@ def add_products():
 
     cursor.executemany(
         "INSERT INTO products (product_title, price, quantity) VALUES (?, ?, ?)",
-        products
+         products
     )
 
     conn.commit()
